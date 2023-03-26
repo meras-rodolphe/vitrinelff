@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+    font-family: libre Baskerville, serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin-top: 5%;
+    color: whitesmoke;
+}
+footer a{
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+.bandeau{
+    height: auto;
+    background-color: rgb(223, 223, 225);
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 0.5%;
+    color: cadetblue;
+}
+h2, h3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.5%;
+    color: cadetblue;
+}
+h6{
+    font-size: 1.2rem;
+    padding: 0.5%;
+}
+#presentation{
+    font-size: 2rem;
+    padding: 2%;
+    background-color: whitesmoke;
+}
+#presentation h2, h4{
+    font-size: 2.5rem;
+}
+.tel{
+    display: none;
+    
+}
+.card{
+    box-shadow: 3px 3px 3px darkslategrey;
+    border-radius: 10px;
+}
+.card-img-top{
+    height: 80%;
+    width:auto;
+}
+.card-title{
+    font-size: 1.8rem;
+    margin-left: 15%;
+    color: cadetblue;
+}
+.card-body{
+    background-color: whitesmoke;
+}
+.card-text{
+    font-size: 1.2rem;
+    margin-left: 5%;
+}
+#prod-ac{
+    font-size: 3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.boutique{
+    margin-top: 2%;
+}
+#boutique1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+}
+#titre{
+    color: black;
+}
+/*fiche-produit*/
+.prod-fiche{
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.fiche{
+    padding: 1%;
+    font-size: 1.3rem;
+}
+.commentaire{
+    padding: 1%;
+    margin: 5%;
+}
+.star {
+    color: yellow;
+    font-size: 2rem;
+  }
+  #pagi{
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  .page-link{
+    color: black;
+  }
+  /*boutique détail*/
+  .tableau{
+    margin:1%;
+  }
+  .ab{
+    background-color: cadetblue;
+    color: whitesmoke;
+  }
+  /*add-product*/
+  #add-product{
+    margin: 1%;
+    width: 98%;
+    border-radius: 20px;
+  }
+  /*messagerie*/
+  #tab{
+    background-color: cadetblue;
+    color: whitesmoke;
+  }
+
+
+@media screen and (max-width:768.98px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tel {
+        display: block;
+
+    }
+    .tel h4 h5 p{
+        color: cadetblue;
+        font-size: 2rem;
+    }
+    header{
+        display: none;
+    }
+    #logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 15%;
+        box-shadow: 4px 4px 6px 
+    black;
+    }
+    .pal{
+        display: none;
+    }
+    .pipe{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 23%;
+    }
+    .all{
+        color: whitesmoke;
+        background-color:cadetblue;
+        text-align: center;
+        margin-left: 40%;
+        padding: 1%;
+    }
+    #titre{
+        color:cadetblue;
+        font-size: 2rem;
+    }
+    /*navbar*/
+    .nav-item{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    #presentation{
+        font-size: 1.2rem;
+        padding: 5%;
+        text-align: center;
+    }
+    #presentation h2, h4{
+        font-size: 1.6rem;
+    }
+    .bandeau{
+        height: auto;
+        background-color: rgb(223, 223, 225);
+        color: whitesmoke;
+    }
+    #boutique1{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 0%;
+    }  
+    /*vendeur*/
+  #dash{
+      margin: 1%;
+      width: 95%;
+      border-radius: 20px;
+  }
+  #dash1{
+    border-radius: 10px;
+  }
+  #add-product{
+    margin: 1%;
+    width: 95%;
+    border-radius: 20px;
+  }
+
+
+
+
+}
